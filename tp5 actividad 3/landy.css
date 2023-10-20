@@ -1,0 +1,13 @@
+div {
+    width: 720px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("./69112adca651cb13fdbb05587b578764.jpg");
+    overflow: hidden;
+    transition: 1.5s all;
+}
+
+div:hover {
+    background-size: 120%;
+}

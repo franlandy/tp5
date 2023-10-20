@@ -1,0 +1,78 @@
+#imagen1 {
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+    background-image: url("./foto1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#imagen1::before {
+    position: absolute;
+    content: "15% de descuento";
+    display: block;
+    padding: 10px;
+    width: 380px;
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    top: 522px;
+}
+
+#imagen2 {
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+    background-image: url("./foto2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#imagen2::before {
+    position: absolute;
+    content: "20% de descuento";
+    display: block;
+    padding: 10px;
+    width: 380px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    font-size: 50px;
+    top: 522px;
+}
+
+#imagen3 {
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+    background-image: url("./foto3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#imagen3::before {
+    position: absolute;
+    content: "Sin espacios";
+    display: block;
+    padding: 10px;
+    width: 380px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+    font-size: 50px;
+    top: 522px;
+}
+
+div {
+    display: inline-block;
+    left: 200px;
+    margin: 30px;
+    box-shadow: 4px 4px 19px 0px;
+}
